@@ -24,3 +24,24 @@
   
 <br>
 
+## Instructions
+
+Note: Dont forgot to import necessary stuff 
+
+* Add your app in `INSTALLED APPS` in `settings.py`.
+* Update paths in `urls.py` <br>
+  e.g.
+  ```
+  urlpatterns = [
+    path('', views.home, name='shop-home'),
+    path('home/', views.home, name='shop-home'),
+  ]
+  ```
+* define path functions in `views.py` <br>
+  e.g.
+  ```
+  def home(request):
+    return render(request, 'index.html')
+  ```
+* 
+  
