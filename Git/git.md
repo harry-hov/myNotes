@@ -35,3 +35,11 @@
   `git rebase -i HEAD~N` (N = no. of commits you want to squash)
   
   then choose 'pick' or 'squash' from the text editor
+  
+## Merging two branches
+
+  `git checkout a` (you will switch to branch a)
+  
+  `git merge b` (this will merge all changes from branch b into branch a)
+  
+
