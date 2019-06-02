@@ -1,2 +1,3 @@
-# myNotes
-notes on stuff I learned so far
+# MyNotes
+
+my personal cheetsheet
